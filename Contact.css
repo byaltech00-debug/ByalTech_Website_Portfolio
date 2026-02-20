@@ -2,8 +2,6 @@ body {
   margin: 0px;
 }
 .div-menu {
-  position: sticky;
-  top: 0;
   background-color: purple;
   display: inline-block;
   width: 90%;
@@ -12,7 +10,7 @@ body {
 }
 .text {
   position: absolute;
-  top:10px;
+  top: 2.2%;
   left: 13%;
   color: #fefcef;
 }
@@ -23,8 +21,7 @@ body {
 }
 .lable-menu {
   position: sticky;
-  top: 0;
-  padding-top: 9px;
+  padding-top: 7px;
   padding-bottom: 4px;
   float: right;
   background-color: gray;
@@ -79,14 +76,15 @@ p {
   border: 1px solid black;
   outline: 50px;
 }
-textarea {
-  padding: 11px;
-  margin-top: 5%;
-  width: 79.9%;
+.textarea {
+  margin: 5% 0px;
   height: 90px;
   border-radius: 5px;
   border: 1px solid black;
   outline: 50px;
+  padding: 11px 11px;
+  box-sizing: border-box;
+  resize: none;
 }
 .button {
   width: 87.5%;
@@ -99,4 +97,4 @@ textarea {
 }
 .message-notice {
   margin-top: 15%;
-}
+  }
