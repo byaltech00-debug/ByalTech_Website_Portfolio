@@ -24,7 +24,7 @@ body {
 .lable-menu {
   position: sticky;
   top: 0;
-  padding-top: 7px;
+  padding-top: 9px;
   padding-bottom: 4px;
   float: right;
   background-color: gray;
